@@ -76,7 +76,7 @@ open class SwipeTableViewCell: UITableViewCell {
     func configure() {
         clipsToBounds = false
         
-        addGestureRecognizer(tapGestureRecognizer)
+        //addGestureRecognizer(tapGestureRecognizer)
         addGestureRecognizer(panGestureRecognizer)
     }
     
