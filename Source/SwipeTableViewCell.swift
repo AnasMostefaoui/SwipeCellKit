@@ -19,7 +19,10 @@ open class SwipeTableViewCell: UITableViewCell {
     
     var animator: SwipeAnimator?
 
-    var state = SwipeState.center
+    var state = SwipeState.center    
+    public var isActive : Bool {
+        return self.state.isActive
+    }
     var originalCenter: CGFloat = 0
     
     weak var tableView: UITableView?
